@@ -12,6 +12,7 @@
 		0D84AC142194BA8E00C9F069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84AC122194BA8E00C9F069 /* Main.storyboard */; };
 		0D84AC162194BA9000C9F069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D84AC152194BA9000C9F069 /* Assets.xcassets */; };
 		0D84AC192194BA9000C9F069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84AC172194BA9000C9F069 /* LaunchScreen.storyboard */; };
+		0DB0496B21955E6D005E6B5E /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0496A21955E6D005E6B5E /* QRViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0D84AC152194BA9000C9F069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D84AC182194BA9000C9F069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D84AC1A2194BA9000C9F069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB0496A21955E6D005E6B5E /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0D84AC0E2194BA8D00C9F069 /* AppDelegate.swift */,
 				0D84AC102194BA8D00C9F069 /* ViewController.swift */,
+				0DB0496A21955E6D005E6B5E /* QRViewController.swift */,
 				0D84AC122194BA8E00C9F069 /* Main.storyboard */,
 				0D84AC152194BA9000C9F069 /* Assets.xcassets */,
 				0D84AC172194BA9000C9F069 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				0D84AC112194BA8D00C9F069 /* ViewController.swift in Sources */,
 				0D84AC0F2194BA8D00C9F069 /* AppDelegate.swift in Sources */,
+				0DB0496B21955E6D005E6B5E /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F5ZB95LXNQ;
 				INFOPLIST_FILE = "Swifty QR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F5ZB95LXNQ;
 				INFOPLIST_FILE = "Swifty QR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
